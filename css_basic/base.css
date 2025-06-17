@@ -13,3 +13,9 @@ h1, h2, h3 {
 p {
   color: #666;
 }
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
