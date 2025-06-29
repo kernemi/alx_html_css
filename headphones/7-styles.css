@@ -1,0 +1,22 @@
+/* Animate scale & opacity on hover */
+.animate {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.animate:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* Bounce animation for results section */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce .pentagon {
+  animation: bounce 2s infinite ease-in-out;
+}

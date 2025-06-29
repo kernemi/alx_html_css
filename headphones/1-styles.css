@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.what-we-do {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.service {
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.service p {
+  font-size: 0.95em;
+  color: #666;
+}
